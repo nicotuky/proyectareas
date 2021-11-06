@@ -19,12 +19,13 @@
                         <ul class="list-group">
                           <li v-for="(tarea,index) of listarea" :key="index" 
                           class="list-group-item d-flex justify-content-around">
-                            <span class="cursor">
-                              <i class="far fa-circle"></i>
+                            <span class="cursor" v-bind:class="{'text-success' : tarea-estado}"
+                            v-on:click="editartarea(tarea, index)">
+                              <i v-bind:class="[ tarea.estado ? 'fas fa-clock' : 'far fa-circle']"></i>
                             </span>
                             {{tarea.nombre}}
                             <span class="text-danger cursor" v-on:click="elimitarTarea(index)">
-                              <i class="far fa-circle"></i>
+                              <i class="fas fa-bars"></i>
                               </span>
                           </li>
                         </ul>
@@ -55,6 +56,9 @@ export default {
     },
     elimitarTarea(index){
       this.listarea.splice(index,1)
+    },
+    editartarea(tarea,index){
+      this.listarea[index].estado = !tarea.estado
     }
   }
 }
