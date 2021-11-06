@@ -1,5 +1,5 @@
 <template>
-  <Tarea msg="Welcome to Your Vue.js App"/>
+  <Tarea />
 </template>
 
 <script>
