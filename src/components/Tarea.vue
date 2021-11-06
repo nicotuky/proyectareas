@@ -18,8 +18,8 @@
 
                         <ul class="list-group">
                           <li v-for="(tarea,index) of listarea" :key="index" 
-                          class="list-group-item d-flex justify-content-around">
-                            <span class="cursor" v-bind:class="{'text-success' : tarea-estado}"
+                          class="list-group-item d-flex justify-content-between">
+                            <span class="cursor" v-bind:class="{'text-success' : tarea.estado}"
                             v-on:click="editartarea(tarea, index)">
                               <i v-bind:class="[ tarea.estado ? 'fas fa-clock' : 'far fa-circle']"></i>
                             </span>
