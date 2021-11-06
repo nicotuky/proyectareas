@@ -36,21 +36,21 @@
 
 <script>
 export default {
-  name: 'tareas',
+  name: 'tarea',
   data(){
     return {
-      tareas: '',
+      tarea: '',
       listarea: []
     }
   },
   methods: {
     agregarTarea() {
-      const tareas = {
-        nombre: this.tareas,
+      const tarea = {
+        nombre: this.tarea,
         estado: false
       }
-      this.listarea.push(tareas);
-      this.tareas ='';
+      this.listarea.push(tarea);
+      this.tarea ='';
     }
   }
 }
