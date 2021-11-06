@@ -14,17 +14,18 @@
                             </div>         
                         </div>
                         <br>
-                        {{ listarea }}
+                        <h5 v-if="listarea.length == 0">No hay laburo</h5>
+
                         <ul class="list-group">
-                          <li class="list-group-item d-flex justify-content-around">
+                          <li v-for="(tarea,index) of listarea" :key="index" 
+                          class="list-group-item d-flex justify-content-around">
                             <span class="cursor">
                               <i class="far fa-circle"></i>
                             </span>
-                            Estoy sintiendo los efectos de la masculinidad
-                            <span class="text-danger cursor">
-                              <i class="far fa-circle"></i><i class="fa-solid fa-xmark"></i>
-                              <i class="fa-duotone fa-circle-check"></i>
-                            </span>
+                            {{tarea.nombre}}
+                            <span class="text-danger cursor" v-on:click="elimitarTarea(index)">
+                              <i class="far fa-circle"></i>
+                              </span>
                           </li>
                         </ul>
                     </div>
@@ -51,6 +52,9 @@ export default {
       }
       this.listarea.push(tarea);
       this.tarea ='';
+    },
+    elimitarTarea(index){
+      this.listarea.splice(index,1)
     }
   }
 }
