@@ -14,7 +14,6 @@
                             </div>         
                         </div>
                         <br>
-<<<<<<< Updated upstream
                         <div class="text-center">
                         <div v-if="loading" class="spinner-border text-success" role="status">
                           <span class="sr-only">Loading...</span>
@@ -38,21 +37,6 @@
                             <span class="text-danger cursor" v-on:click="eliminarTarea(tarea.id)">
                               <i class="fas fa-bars"></i>
                               </span>
-=======
-                        {{ listarea }}
-                        <ul class="list-group">
-                          <li class="list-group-item d-flex justify-content-around">
-                            <span class="cursor" v-on:click="editarTarea(tarea, index)">
-                              <i v-bind:class="[tarea.estado ? 'far fa-circle-check' : 'far fa-circle']" 
-                              class="fa-solid fa-circle-check"></i>
-                              <i class="far fa-circle"></i>
-                            </span>
-                            {{tarea.nombre}}
-                            <span class="text-danger cursor">
-                              <i class="far fa-circle"></i><i class="fa-solid fa-xmark"></i>
-                              <i class="fa-duotone fa-circle-check"></i>
-                            </span>
->>>>>>> Stashed changes
                           </li>
                         </ul>
                     </div>
@@ -91,7 +75,6 @@ export default {
         this.loading = false;
       })
       this.tarea ='';
-<<<<<<< Updated upstream
     },
     eliminarTarea(id){
       /*this.listarea.splice(index,1)*/
@@ -120,8 +103,6 @@ export default {
         this.listarea = response.data;
         this.loading = false;
       }).catch(() => this.loading = false)
-=======
->>>>>>> Stashed changes
     }
   },
   created: function() {
