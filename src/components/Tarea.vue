@@ -45,9 +45,16 @@
         </div>
         <div class="text-center">
         <hr>
-        <h7 >Proyecto en Vue.js y .NET CORE</h7>
-        <hr>
-        <h7>Nicolás D     -      Damian P.</h7>
+        <p>
+          <small>
+          "Proyecto" 
+          "en" 
+          "Vue.js" 
+          "y" 
+          ".NET CORE"
+          "Nicolás D.     -      Damian P."
+          </small>
+          </p>
         </div>
 </div>
 </template>
