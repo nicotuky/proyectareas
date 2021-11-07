@@ -43,10 +43,12 @@
                 </div>
             </div>
         </div>
+        <div class="text-center">
         <hr>
-        <h7 class="text-center">Proyecto en Vue.js y .NET CORE</h7>
+        <h7 >Proyecto en Vue.js y .NET CORE</h7>
         <hr>
-        <h7 class="text-center">Nicolás D     -      Damian P.</h7>
+        <h7>Nicolás D     -      Damian P.</h7>
+        </div>
 </div>
 </template>
 
