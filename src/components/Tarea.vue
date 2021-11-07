@@ -48,7 +48,7 @@
             <p>
               <small>
                 <a href="https://github.com/nicotuky/proyectareas">
-                  <i class="fab fa-github"></i>About Us</a>
+                  <i class="fab fa-github"></i></a>
                   Design by Nicolás D./Damian.P 
                   </small>
               </p>
