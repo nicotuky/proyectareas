@@ -48,7 +48,7 @@
 
 <script>
 import axios from 'axios';
-const URL ="backend-tareas20211107113720.azurewebsites.net/api/Tarea/"
+const URL ="https://backend-tareas20211107113720.azurewebsites.net/api/Tarea/"
 export default {
   name: 'tarea',
   data(){
