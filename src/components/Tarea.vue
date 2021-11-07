@@ -43,12 +43,14 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <h1 class="display-4 text-center">Proyecto en Vuejs y .NET CORE</h1>
 </div>
 </template>
 
 <script>
 import axios from 'axios';
-const URL ="https://backend-tareas20211107113720.azurewebsites.net/api/Tarea/"
+const URL ="https://backend-tareas20211107113720.azurewebsites.net/api/Tarea/0"
 export default {
   name: 'tarea',
   data(){
