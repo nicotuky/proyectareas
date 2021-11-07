@@ -44,7 +44,6 @@
             </div>
         </div>
         <hr>
-        <h1 class="display-4 text-center">Proyecto en Vuejs y .NET CORE</h1>
 </div>
 </template>
 
