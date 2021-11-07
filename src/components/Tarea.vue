@@ -45,6 +45,7 @@
         </div>
         <hr>
         <h7>Proyecto en Vue.js y .NET CORE</h7>
+        <hr>
         <h7>Nicolás D     -      Damian P.</h7>
 </div>
 </template>
