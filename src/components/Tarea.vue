@@ -46,7 +46,11 @@
         <footer class="app-footer inverse" role="contentinfo">
           <div class="container">
             <p>
-              <small>© 2021 Netlify</small>
+              <small>
+                <a href="https://github.com/nicotuky/proyectareas">
+                  <i class="fab fa-github"></i>About Us</a>
+                  Design by Nicolás D./Damian.P 
+                  </small>
               </p>
               </div>
               </footer>
