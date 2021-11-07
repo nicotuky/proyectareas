@@ -66,7 +66,7 @@ export default {
       }
       /*this.listarea.push(tarea);*/
       this.loading = true;
-      axios.post(URL, tarea)
+      axios.post("backend-tareas20211107113720.azurewebsites.net/api/Tarea", tarea)
       .then(response => {
         console.log(response);
         this.loading = false;
@@ -98,7 +98,7 @@ export default {
     },
     obtenerTareas(){
       this.loading = true;
-      axios.get(URL)
+      axios.get("backend-tareas20211107113720.azurewebsites.net/api/Tarea")
       .then(response => {
         console.log(response);
         this.listarea = response.data;
