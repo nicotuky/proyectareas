@@ -43,19 +43,13 @@
                 </div>
             </div>
         </div>
-        <div class="text-center">
-        <hr>
-        <p>
-          <small>
-          "Proyecto" 
-          "en" 
-          "Vue.js" 
-          "y" 
-          ".NET CORE"
-          "Nicolás D.     -      Damian P."
-          </small>
-          </p>
-        </div>
+        <footer class="app-footer inverse" role="contentinfo">
+          <div class="container">
+            <p>
+              <small>© 2021 Netlify</small>
+              </p>
+              </div>
+              </footer>
 </div>
 </template>
 
