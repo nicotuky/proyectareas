@@ -37,7 +37,7 @@
                             </span>
                             {{tarea.nombre}}
                             <span class="text-danger cursor" v-on:click="eliminarTarea(tarea.id)">
-                              <i class="fas fa-bars"></i>
+                              <i class="fa fa-trash"></i>
                               </span>
                           </li>
                         </ul>
