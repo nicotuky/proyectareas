@@ -7,7 +7,7 @@
                 <div class="card mt-4">
                     <div class="card-body">
                         <div class="input-group">
-                            <input type="text" v-model="tarea"  class="form-control form-control-lg" placeholder="Listado">  
+                            <input type="text" v-model="tarea"  class="form-control form-control-lg" placeholder="Agregar tarea...">  
                             <div class="input-group-append">
                                 <button v-on:click="agregarTarea()" 
                                 class="btn btn-success btn-lg">Agregar</button> 
