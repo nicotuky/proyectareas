@@ -19,7 +19,9 @@
                           <span class="sr-only">Loading...</span>
                           </div>
                           </div>
-                        <h5 v-if="listarea.length == 0">No hay laburo</h5>
+                        <div class="text-center">
+                         <h5 v-if="listarea.length == 0">No hay tareas pendientes.</h5>
+                        </div>
                           <ul v-if="!loading" class="list-group">
 
                             <li
