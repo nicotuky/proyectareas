@@ -33,7 +33,7 @@
                               class="cursor" 
                               v-bind:class="{'text-success' : tarea.estado}"
                               v-on:click="editartarea(tarea, tarea.id)">
-                              <i v-bind:class="[ tarea.estado ? 'fas fa-clock' : 'far fa-circle']"></i>
+                              <i v-bind:class="[ tarea.estado ? 'fa fa-check-circle' : 'far fa-circle']"></i>
                             </span>
                             {{tarea.nombre}}
                             <span class="text-danger cursor" v-on:click="eliminarTarea(tarea.id)">
